@@ -11,27 +11,27 @@
 <main>
     <nav>
         <ul>
-            <li><a href="">Automobiliai</a></li>
+            <li style="background-color: #c87979;"><a href="" style=""><b>Automobiliai</b></a></li>
 
-            <li><a href="">Foto</a></li>
+            <li style="background-color: #7ccc6e;"><a href=""><b>Foto</b></a></li>
 
-            <li><a href="">Audio</a></li>
+            <li style="background-color: #b965c3;"><a href=""><b>Audio</b></a></li>
 
-            <li><a href="">Drabužiai</a></li>
+            <li style="background-color: #67d1be;"><a href=""><b>Drabužiai</b></a></li>
 
-            <li><a href="">Avalinė</a></li>
+            <li style="background-color: #d6c863;"><a href=""><b>Avalinė</b></a></li>
 
-            <li><a href="">Technika</a></li>
+            <li style="background-color: #5c6bca;"><a href=""><b>Technika</b></a></li>
 
-            <li><a href="">Baldai</a></li>
+            <li style="background-color: #da7759;"><a href=""><b>Baldai</b></a></li>
 
-            <li><a href="">Sodui</a></li>
+            <li style="background-color: #679c5f;"><a href=""><b>Sodui</b></a></li>
 
-            <li><a href="">Žaidimams</a></li>
+            <li style="background-color: #7e3434;"><a href=""><b>Žaidimams</b></a></li>
 
-            <li><a href="">Vaikams</a></li>
+            <li style="background-color: #7a5e5e;"><a href=""><b>Vaikams</b></a></li>
 
-            <li><a href="">Pasiūlimai</a></li>
+            <li style="background-color: #8a58da;"><a href=""><b>Pasiūlimai</b></a></li>
 
         </ul>
     </nav>

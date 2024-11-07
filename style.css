@@ -14,9 +14,10 @@ a:hover {
 }
 
 li {
+    padding: 5px;
     list-style: none;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10px 5px;
 }
 
 ul {
@@ -30,7 +31,11 @@ ul {
 main  {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 30%;
     min-height: 100vh;
     margin : auto;
+}
+
+body {
+    background: linear-gradient(#81813c, #8585da,#81813c);
 }
