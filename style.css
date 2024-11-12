@@ -3,9 +3,13 @@
     padding: 0;
 }
 
+.parallax {
+    min-height: 100vh;
+}
+
 a {
     text-decoration: none;
-    color: inherit;
+    color: #000;
     transition: 0.5s ease-in-out;
 }
 
@@ -14,7 +18,7 @@ a:hover {
 }
 
 li {
-    padding: 5px;
+    padding: 4px;
     list-style: none;
     border: 1px solid black;
     border-radius: 10px 5px;
@@ -28,14 +32,11 @@ ul {
     align-items: center;
 }
 
-main  {
+main {
     display: flex;
     align-items: center;
     width: 30%;
     min-height: 100vh;
-    margin : auto;
+    margin: auto;
 }
 
-body {
-    background: linear-gradient(#81813c, #8585da,#81813c);
-}
