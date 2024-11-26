@@ -1,5 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .side-bar {
-    width: 300px;
-    min-height: 70vh;
-    background-color: #c0ffdf
+    width: 325px;
+    min-height: 95vh;
+    background-color: #bf5662;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    border-radius: 0 10px 10px 0;
+}
+
+.icon {
+    display: flex;
 }

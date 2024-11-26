@@ -15,7 +15,8 @@
 <body>
 
 <div class="side-bar">
-
+    <img class="icon" src="images/icons/calendar.svg" alt=""><span>Today</span>
+    <img class="icon" src="images/icons/calendar.svg" alt=""><span>Tomorrow</span>
 </div>
 
 </body>
