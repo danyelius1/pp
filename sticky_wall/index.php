@@ -14,9 +14,49 @@
 </head>
 <body>
 
-<div class="side-bar">
-    <img class="icon" src="images/icons/calendar.svg" alt=""><span>Today</span>
-    <img class="icon" src="images/icons/calendar.svg" alt=""><span>Tomorrow</span>
+
+<div class="side-bar-container">
+    <div class="side-bar">
+
+        <div class="link">
+            <img class="icon" src="images/icons/calendar.svg" alt="">
+            <a href="">Today</a>
+        </div>
+
+        <div class="link">
+            <img class="icon" src="images/icons/calendar.svg" alt="">
+            <a href="">Tomorrow</a>
+        </div>
+
+    </div>
+</div>
+
+<!--container-->
+
+<div class="container">
+
+    <div class="sticks">
+
+    </div>
+
+    <div class="sticks">
+
+    </div>
+
+    <div class="sticks">
+
+    </div>
+
+    <div class="sticks">
+
+    </div>
+
+</div>
+
+<!--Sticky wall-->
+
+<div class="sticky-wall">
+    <h1>Stycky Wall</h1>
 </div>
 
 </body>

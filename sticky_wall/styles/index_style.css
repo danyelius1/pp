@@ -1,19 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
 * {
     padding: 0;
     margin: 0;
 }
 
 .side-bar {
-    width: 325px;
+    width: 300px;
     min-height: 95vh;
-    background-color: #bf5662;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 15px;
+    left: 20px;
     border-radius: 0 10px 10px 0;
+    border: solid #bcb6b6 1px;
 }
 
-.icon {
+.link img {
+    width: 24px;
+}
+
+
+.link  {
     display: flex;
+    padding: 15px;
+}
+
+.container {
+    width: 860px;
+    min-height: 50vh;
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    left: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 17px;
+    border: solid #bcb6b6 1px;
+}
+
+.sticks {
+    width: 250px;
+    height: 250px;
+    background-color: #9f75ff;
+}
+
+.sticky-wall {
+    position: absolute;
+    left: 24%;
+    padding: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
 }
