@@ -3,7 +3,7 @@
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -17,6 +17,18 @@
 
 <div class="side-bar-container">
     <div class="side-bar">
+
+        <div class="menu">
+
+            <div class="menu-name">
+                <p>MENU</p>
+            </div>
+
+            <div class="menu-icon">
+                <img class="icon" src="images/icons/menu-icon.svg" alt="">
+            </div>
+
+        </div>
 
         <div class="link">
             <img class="icon" src="images/icons/calendar.svg" alt="">
@@ -35,19 +47,19 @@
 
 <div class="container">
 
-    <div class="sticks">
+    <div class="sticks_1">
 
     </div>
 
-    <div class="sticks">
+    <div class="sticks_2">
 
     </div>
 
-    <div class="sticks">
+    <div class="sticks_3">
 
     </div>
 
-    <div class="sticks">
+    <div class="sticks_4">
 
     </div>
 
