@@ -45,31 +45,38 @@
 
 <!--container-->
 
-<div class="container">
+<section class="main-content">
 
-    <div class="sticks_1">
-
+    <div class="sticky-wall">
+        <h1>Stycky Wall</h1>
     </div>
 
-    <div class="sticks_2">
+    <div class="container">
+        <div class="sticks_1">
 
+        </div>
+
+        <div class="sticks_2">
+
+        </div>
+
+        <div class="sticks_3">
+
+        </div>
+
+        <div class="sticks_4">
+
+        </div>
+
+        <div class="sticks_4">
+
+        </div>
     </div>
 
-    <div class="sticks_3">
-
-    </div>
-
-    <div class="sticks_4">
-
-    </div>
-
-</div>
+</section>
 
 <!--Sticky wall-->
 
-<div class="sticky-wall">
-    <h1>Stycky Wall</h1>
-</div>
 
 </body>
 </html>
