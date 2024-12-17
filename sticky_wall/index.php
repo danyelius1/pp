@@ -52,24 +52,28 @@
     </div>
 
     <div class="container">
-        <div class="sticks_1">
 
+        <div class="sticks_1">
+            <div class="stick-div">
+                <h1>sdkjkisjjs</h1>
+                <p></p>
+            </div>
         </div>
 
         <div class="sticks_2">
-
+            <div class="stick-div"></div>
         </div>
 
         <div class="sticks_3">
-
+            <div class="stick-div"></div>
         </div>
 
         <div class="sticks_4">
-
+            <div class="stick-div"></div>
         </div>
 
         <div class="sticks_4">
-
+            <div class="stick-div"></div>
         </div>
     </div>
 

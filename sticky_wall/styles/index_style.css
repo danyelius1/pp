@@ -38,11 +38,6 @@
 }
 
 .container {
-
-
-
-
-
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -97,4 +92,8 @@
 
 .sticks_4 {
     background-color: rgb(246, 240, 157);
+}
+
+.stick-div {
+    padding: 40px;
 }
