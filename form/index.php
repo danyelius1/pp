@@ -19,12 +19,12 @@
 
     <main>
         <div class="email-input">
-            <label for="email">.</label>
+            <label for="email"></label>
             <input type="email" id="email" name="email" placeholder="gmail" required>
         </div>
 
         <div class="password-input">
-            <label for="password">.</label>
+            <label for="password"></label>
             <input type="password" id="password" name="password" placeholder="Steam password" required>
         </div>
 
