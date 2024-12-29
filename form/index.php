@@ -11,7 +11,7 @@
 <body>
 
 <div>
-    <p class="main-content">Free steam balance 20€ for first 5 register.</p>
+    <p class="main-content">First 5 registered users get a free 20 eur steam balance!</p>
     <p class="content">We steam community gifting 20€ for Christmas holiday.</p>
 </div>
 
