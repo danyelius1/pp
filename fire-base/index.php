@@ -1,3 +1,26 @@
+
+<?php
+include('db.php');
+
+if (isset($_POST['submit'])) {
+    $firstname = $_POST['first-name'];
+    $lastname = $_POST['last-name'];
+    $email = $_POST['email'];
+    $phonenumber = $_POST['phone-number'];
+
+    $postData = [
+        'firstName' => $_POST['first-name'],
+        'lastName' => $_POST['last-name'],
+        'email' => $_POST['email'],
+        'phoneNumber' => $_POST['phone-number'],
+    ];
+
+    $ref_table = "contacts";
+    $postRef = $database->getReference($ref_table)->push($postData);
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,23 +32,13 @@
 </head>
 <body>
 
-<form>
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
 
-    <main>
-        <div class="email-input">
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="gmail" required>
-        </div>
-
-        <div class="password-input">
-            <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="  password" required>
-        </div>
-
-        <div class="submit-bottom">
-            <input type="submit" id="submit" name="submit" value="Submit">
-        </div>
-    </main>
+    <label for="first-name"><input type="text" name="first-name" id="first-name" placeholder="first name" required></label>
+    <label for="last-name"><input type="text" name="last-name" id="last-name" placeholder="last name" required></label>
+    <label for="phone-number"><input type="number" name="phone-number" id="phone-number" placeholder="phone number" required></label>
+    <label for="email"><input type="email" name="email" id="email" placeholder="email" required></label>
+    <label for="submit"><input type="submit" name="submit" id="submit" value="log in"></label>
 
 </form>
 
