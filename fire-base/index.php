@@ -9,10 +9,10 @@ if (isset($_POST['submit'])) {
     $phonenumber = $_POST['phone-number'];
 
     $postData = [
-        'firstName' => $_POST['first-name'],
-        'lastName' => $_POST['last-name'],
-        'email' => $_POST['email'],
-        'phoneNumber' => $_POST['phone-number'],
+        'firstName' => $firstname,
+        'lastName' => $lastname,
+        'email' => $email,
+        'phonenumber' => $phonenumber
     ];
 
     $ref_table = "contacts";

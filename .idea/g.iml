@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/cloud-core" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/cloud-storage" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/common-protos" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/gax" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/grpc-gcp" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/longrunning" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/google/protobuf" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/grpc/grpc" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/kreait/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/kreait/firebase-php" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/kreait/firebase-tokens" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/mtdowling/jmespath.php" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/riverline/multipart-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/rize/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/stella-maris/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/fire-base/vendor/symfony/polyfill-php81" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
