@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+            #block_0 {
+                width: 400px;
+                height: 400px;
+                margin: 200px auto;
+                border-radius: 100%;
+            }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            padding: 10px 50px;
+            border-radius: 10px;
+            background-color: rgb(27, 123, 30); 
+            color: red;
+            border: solid 3px rgb(72, 0, 255);
+            position: absolute;
+            left: 600px;
+            top: 50px;
+        }
+
+        #block_1 {
+            width: 400px;
+            height: 400px;
+            border-radius: 100%;
+            position: absolute;
+            top: 25px;
+            left: 50px;
+        }
+
+        #block_2 {
+            width: 400px;
+            height: 400px;
+            border-radius: 100%;
+            position: absolute;
+            left: 70%;
+            top: 0px;
+        }
+
+        #block_3 {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            position: absolute;
+            top: 60%;
+            left: 70%;
+        }
+
+        #block_4 {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            position: absolute;
+            top: 60%;
+            left: 10%;
+        }
+
+
+        </style>
+</head>
+<body>
+    
+    <button onclick="changecolor(); changecolor1(); changecolor2(); changecolor3(); changecolor4()">Don't stop clicking😉</button>
+    
+
+    <div id="block_0"></div>
+    <div id="block_1"></div>
+    <div id="block_2"></div>
+    <div id="block_3"></div>
+    <div id="block_4"></div>
+
+    <script>
+        let colors = ["black" , "red" , "blue" , "green" , "yellow"];
+        let box = document.getElementById("block_0");
+
+        function changecolor() {
+            switch(box.style.backgroundColor) {
+
+                case colors[0]:
+                box.style.backgroundColor = colors[1];
+                break;
+
+                case colors[1]:
+                box.style.backgroundColor = colors[2];
+                break;
+
+                case colors[2]:
+                box.style.backgroundColor = colors[3];
+                break;
+
+                case colors[3]:
+                box.style.backgroundColor = colors[4];
+                break;
+
+                case colors[4]:
+                box.style.backgroundColor = colors[0];
+                break;
+                default: box.style.backgroundColor = colors[0];
+            }
+        }
+    </script>
+
+<script>
+    let colors_1 = ["green" , "blue" , "yellow" , "red" , "orange"];
+    let box_2 = document.getElementById("block_1");
+
+    function changecolor1() {
+        switch(box_2.style.backgroundColor) {
+
+            case colors_1[0]:
+            box_2.style.backgroundColor = colors_1[1];
+            break;
+
+            case colors_1[1]:
+            box_2.style.backgroundColor = colors_1[2];
+            break;
+
+            case colors_1[2]:
+            box_2.style.backgroundColor = colors_1[3];
+            break;
+
+            case colors_1[3]:
+            box_2.style.backgroundColor = colors_1[4];
+            break;
+
+            case colors_1[4]:
+            box_2.style.backgroundColor = colors_1[0];
+            break;
+            default: box_2.style.backgroundColor = colors_1[0];
+        }
+    }
+</script>
+
+<script>
+    let colors_2 = ["orange" , "brown" , "green" , "red" , "yellow"];
+    let box_3 = document.getElementById("block_2");
+
+    function changecolor2() {
+        switch(box_3.style.backgroundColor) {
+
+            case colors_2[0]:
+            box_3.style.backgroundColor = colors_2[1];
+            break;
+
+            case colors_2[1]:
+            box_3.style.backgroundColor = colors_2[2];
+            break;
+
+            case colors_2[2]:
+            box_3.style.backgroundColor = colors_2[3];
+            break;
+
+            case colors_2[3]:
+            box_3.style.backgroundColor = colors_2[4];
+            break;
+
+            case colors_2[4]:
+            box_3.style.backgroundColor = colors_2[0];
+            break;
+            default: box_3.style.backgroundColor = colors_2[0];
+        }
+    }
+</script>
+
+<script>
+    let colors_3 = ["aqua" , "black" , "red" , "blue" , "orange"];
+    let box_4 = document.getElementById("block_3");
+
+    function changecolor3() {
+        switch(box_4.style.backgroundColor) {
+
+            case colors_3[0]:
+            box_4.style.backgroundColor = colors_3[1];
+            break;
+
+            case colors_3[1]:
+            box_4.style.backgroundColor = colors_3[2];
+            break;
+
+            case colors_3[2]:
+            box_4.style.backgroundColor = colors_3[3];
+            break;
+
+            case colors_3[3]:
+            box_4.style.backgroundColor = colors_3[4];
+            break;
+
+            case colors_3[4]:
+            box_4.style.backgroundColor = colors_3[0];
+            break;
+            default: box_4.style.backgroundColor = colors_3[0];
+        }
+    }
+</script>
+
+<script>
+    let colors_4 = ["yellow" , "aqua" , "black" , "orange" , "red"];
+    let box_5 = document.getElementById("block_4");
+
+    function changecolor4() {
+        switch(box_5.style.backgroundColor) {
+
+            case colors_4[0]:
+            box_5.style.backgroundColor = colors_4[1];
+            break;
+
+            case colors_4[1]:
+            box_5.style.backgroundColor = colors_4[2];
+            break;
+
+            case colors_4[2]:
+            box_5.style.backgroundColor = colors_4[3];
+            break;
+
+            case colors_4[3]:
+            box_5.style.backgroundColor = colors_4[4];
+            break;
+
+            case colors_4[4]:
+            box_5.style.backgroundColor = colors_4[0];
+            break;
+            default: box_5.style.backgroundColor = colors_4[0];
+        }
+    }
+</script>
+
+</body>
+</html>
