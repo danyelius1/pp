@@ -4,7 +4,7 @@ if (isset($_POST['submit'])) {
     $servername = "localhost";
     $username = "root";
     $password = "password";
-    $dbname = "database";
+    $dbname = "social_network";
 
     $name = $_POST['name'];
     $lastname = $_POST['lastname'];
@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
         echo "no " . $conn->connect_error;
     }
 
-    $query = "INSERT INTO yes (name, last_name, email, password) VALUES ('$name', '$lastname', '$email', '$password1')";
+    $query = "INSERT INTO users (name, lastname, email, password) VALUES ('$name', '$lastname', '$email', '$password1')";
     $result = mysqli_query($conn, $query);
 
     if (!$result) {
