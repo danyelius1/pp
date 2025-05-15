@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    border: 2px solid black;
+    position: absolute;
+    right: 550px;
+    top: 20px;
+    width: 500px;
+    min-height: 700px;
+}
+
+.textarea {
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+textarea {
+    border: solid black 2px;
+}
+
+input {
+    position: absolute;
+    width: 70px;
+    min-height: 35px;
+    border-radius: 10px;
+    background-color: #0000ff;
+    left: 90px;
+    color: #fff;
+    top: 80px;
+}
+
+.postings {
+    width: 385px;
+    min-height: 300px;
+    left: 100px;
+    position: absolute;
+    top: 160px;
+}
+
+.postings_1 {
+    padding: 10px;
+
+}
+
+ul {
+    list-style: none;
+}
