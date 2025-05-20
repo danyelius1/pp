@@ -1,0 +1,52 @@
+/* Mini Social Network */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: system-ui, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    display: block;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    border: none;
+    background: none;
+    color: inherit;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+main, section, article, aside, footer, header, nav {
+    display: block;
+}
